@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\views\\resumoeventoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\views\\resumoeventoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\views\\cadastroeventoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\views\\cadastroeventoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\views\\cadastroeventoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\views\\cadastroeventoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\views\\resumoeventoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\views\\resumoeventoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|d:\\dev\\gestao_de_eventos_ag_15_ds-ii\\mauiappeventos\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B2D3E4F-5A6B-4C7D-8E9F-0A1B2C3D4E5F}|MauiAppEventos\\MauiAppEventos.csproj|solutionrelative:mauiappeventos\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "MauiAppEventos\\Models\\Evento.cs",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Models\\Evento.cs",
+              "RelativeToolTip": "MauiAppEventos\\Models\\Evento.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T14:03:26.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastroEventoView.xaml.cs",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\CadastroEventoView.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppEventos\\Views\\CadastroEventoView.xaml.cs",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\CadastroEventoView.xaml.cs",
+              "RelativeToolTip": "MauiAppEventos\\Views\\CadastroEventoView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T14:00:29.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "MauiAppEventos\\Views\\HomeView.xaml",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\HomeView.xaml",
+              "RelativeToolTip": "MauiAppEventos\\Views\\HomeView.xaml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-16T13:51:14.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastroEventoView.xaml",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\CadastroEventoView.xaml",
+              "RelativeDocumentMoniker": "MauiAppEventos\\Views\\CadastroEventoView.xaml",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\CadastroEventoView.xaml",
+              "RelativeToolTip": "MauiAppEventos\\Views\\CadastroEventoView.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-16T13:10:47.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResumoEventoView.xaml.cs",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\ResumoEventoView.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppEventos\\Views\\ResumoEventoView.xaml.cs",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\ResumoEventoView.xaml.cs",
+              "RelativeToolTip": "MauiAppEventos\\Views\\ResumoEventoView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T12:56:58.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResumoEventoView.xaml",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\ResumoEventoView.xaml",
+              "RelativeDocumentMoniker": "MauiAppEventos\\Views\\ResumoEventoView.xaml",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\Views\\ResumoEventoView.xaml",
+              "RelativeToolTip": "MauiAppEventos\\Views\\ResumoEventoView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-16T12:56:46.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppEventos\\App.xaml.cs",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\App.xaml.cs",
+              "RelativeToolTip": "MauiAppEventos\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T12:52:44.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\App.xaml",
+              "RelativeDocumentMoniker": "MauiAppEventos\\App.xaml",
+              "ToolTip": "D:\\DEV\\Gestao_de_Eventos_Ag_15_DS-II\\MauiAppEventos\\App.xaml",
+              "RelativeToolTip": "MauiAppEventos\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-16T12:52:47.497Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

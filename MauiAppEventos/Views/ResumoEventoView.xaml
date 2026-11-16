@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEventos.Views.ResumoEventoView"
+             Title="Resumo do Evento"
+             BackgroundColor="#F4F6F9">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="18" MaximumWidthRequest="550" HorizontalOptions="Fill">
+            <!-- Título pagina Resumo do Evento Cadastrado-->
+            <Label Text="Resumo do Evento Cadastrado"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#15803D"
+                   HorizontalOptions="Center" />
+
+            <Border Stroke="#CBD5E1"
+                    StrokeThickness="1"
+                    BackgroundColor="White"
+                    Padding="22"
+                    StrokeShape="RoundRectangle 12">
+                <VerticalStackLayout Spacing="12">
+
+                    <Label Text="INFORMAÇÕES GERAIS" FontSize="12" FontAttributes="Bold" TextColor="#64748B" />
+                    
+                    <!--Exibe datas e duração do evento-->
+                    <VerticalStackLayout Spacing="2">
+                        <Label Text="Evento:" FontSize="13" TextColor="#64748B" />
+                        <Label Text="{Binding Nome}" FontSize="18" FontAttributes="Bold" TextColor="#0F172A" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="2">
+                        <Label Text="Local:" FontSize="13" TextColor="#64748B" />
+                        <Label Text="{Binding Local}" FontSize="16" TextColor="#0F172A" />
+                    </VerticalStackLayout>
+
+                    <BoxView HeightRequest="1" Color="#E2E8F0" Margin="0,6" />
+
+                    <Label Text="DATAS E DURAÇÃO" FontSize="12" FontAttributes="Bold" TextColor="#64748B" />
+                    
+                    <!--Exibe data inicio e data de fim do evento-->
+                    <Grid ColumnDefinitions="*, *" RowDefinitions="Auto, Auto" RowSpacing="8">
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="0">
+                            <Label Text="Data de Início:" FontSize="13" TextColor="#64748B" />
+                            <Label Text="{Binding DataInicio, StringFormat='{0:dd/MM/yyyy}'}" FontSize="16" FontAttributes="Bold" TextColor="#0F172A" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="Data de Término:" FontSize="13" TextColor="#64748B" />
+                            <Label Text="{Binding DataTermino, StringFormat='{0:dd/MM/yyyy}'}" FontSize="16" FontAttributes="Bold" TextColor="#0F172A" />
+                        </VerticalStackLayout>
+                    </Grid>
+                    
+                    <!--Exibe a quantidade de dias Timestamp-->
+                    <VerticalStackLayout Spacing="2" Margin="0,4,0,0">
+                        <Label Text="Duração Calculada (TimeSpan):" FontSize="13" TextColor="#64748B" />
+                        <Label Text="{Binding ResumoTimeSpan}" FontSize="16" FontAttributes="Bold" TextColor="#2563EB" />
+                    </VerticalStackLayout>
+
+                    <BoxView HeightRequest="1" Color="#E2E8F0" Margin="0,6" />
+
+                    <Label Text="FINANCEIRO E PARTICIPANTES" FontSize="12" FontAttributes="Bold" TextColor="#64748B" />
+                    
+                    <!--  número e custo por participante  -->
+                    <Grid ColumnDefinitions="*, *">
+                        <VerticalStackLayout Grid.Column="0">
+                            <Label Text="Participantes:" FontSize="13" TextColor="#64748B" />
+                            <Label Text="{Binding NumeroParticipantes}" FontSize="16" FontAttributes="Bold" TextColor="#0F172A" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label Text="Custo por Participante:" FontSize="13" TextColor="#64748B" />
+                            <Label Text="{Binding CustoPorParticipante, StringFormat='R$ {0:N2}'}" FontSize="16" FontAttributes="Bold" TextColor="#0F172A" />
+                        </VerticalStackLayout>
+                    </Grid>
+                    
+                    <!-- Exibe o custo total-->
+                    <Border Stroke="#BBF7D0"
+                            BackgroundColor="#F0FDF4"
+                            Padding="15"
+                            Margin="0,10,0,0"
+                            StrokeShape="RoundRectangle 8">
+                        <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
+                            <Label Text="CUSTO TOTAL DO EVENTO" FontSize="12" FontAttributes="Bold" TextColor="#166534" HorizontalOptions="Center" />
+                            <Label Text="{Binding CustoTotal, StringFormat='R$ {0:N2}'}"
+                                   FontSize="24"
+                                   FontAttributes="Bold"
+                                   TextColor="#15803D"
+                                   HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                </VerticalStackLayout>
+            </Border>
+            
+            <!--  Botões Novo Cadastro e Ir para o inicio  -->
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="12">
+                <Button Grid.Column="0"
+                        Text="Novo Cadastro"
+                        Clicked="OnVoltarCadastroClicked"
+                        BackgroundColor="#2563EB"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HeightRequest="48"
+                        CornerRadius="8" />
+
+                <Button Grid.Column="1"
+                        Text="Ir para o Início"
+                        Clicked="OnIrParaInicioClicked"
+                        BackgroundColor="#475569"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HeightRequest="48"
+                        CornerRadius="8" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

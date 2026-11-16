@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiAppEventos.ViewModels"
+             x:Class="MauiAppEventos.Views.CadastroEventoView"
+             Title="Cadastro de Eventos"
+             BackgroundColor="#F4F6F9">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="16" MaximumWidthRequest="550" HorizontalOptions="Fill">
+            <!--Títuloda página cadastro de eventos novos-->
+            <Label Text="Cadastrar Novo Evento"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   TextColor="#1E293B"
+                   HorizontalOptions="Center" />
+            <!--Instruções de uso-->
+            <Label Text="Preencha os dados básicos abaixo para calcular os custos e a duração do evento."
+                   FontSize="14"
+                   TextColor="#64748B"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,0,0,10" />
+
+            <Border Stroke="#EF4444"
+                    StrokeThickness="1"
+                    BackgroundColor="#FEE2E2"
+                    Padding="12"
+                    StrokeShape="RoundRectangle 8"
+                    IsVisible="{Binding TemErro}">
+                <Label Text="{Binding MensagemErro}"
+                       TextColor="#B91C1C"
+                       FontAttributes="Bold"
+                       FontSize="14" />
+            </Border>
+
+            <Border Stroke="#E2E8F0"
+                    StrokeThickness="1"
+                    BackgroundColor="White"
+                    Padding="20"
+                    StrokeShape="RoundRectangle 12">
+                <VerticalStackLayout Spacing="14">
+
+                     <!--Input de dados para o cadastro do evento, o usuário insere os valores nestes campos-->
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="Nome do Evento *" FontAttributes="Bold" TextColor="#334155" />
+                        <Entry Placeholder="Ex: Workshop de .NET MAUI"
+                               Text="{Binding Nome}"
+                               TextColor="#0F172A" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="Local do Evento *" FontAttributes="Bold" TextColor="#334155" />
+                        <Entry Placeholder="Ex: Auditório Principal - Bloco B"
+                               Text="{Binding Local}"
+                               TextColor="#0F172A" />
+                    </VerticalStackLayout>
+                    <!--Aqui o usuário coloca as datas de início e término do evento-->
+                    <Grid ColumnDefinitions="*, *" ColumnSpacing="12">
+                        <VerticalStackLayout Grid.Column="0" Spacing="4">
+                            <Label Text="Data de Início *" FontAttributes="Bold" TextColor="#334155" />
+                            <DatePicker Date="{Binding DataInicio}"
+                                        Format="dd/MM/yyyy"
+                                        TextColor="#0F172A" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="1" Spacing="4">
+                            <Label Text="Data de Término *" FontAttributes="Bold" TextColor="#334155" />
+                            <DatePicker Date="{Binding DataTermino}"
+                                        Format="dd/MM/yyyy"
+                                        TextColor="#0F172A" />
+                        </VerticalStackLayout>
+                    </Grid>
+
+                    <Label Text="{Binding PreviaDuracao}"
+                           FontSize="13"
+                           TextColor="#2563EB"
+                           FontAttributes="Italic" />
+    
+                    <!--Nº de Participantes e Custo por Participante-->
+                    <Grid ColumnDefinitions="*, *" ColumnSpacing="12">
+                        <VerticalStackLayout Grid.Column="0" Spacing="4">
+                            <Label Text="Nº de Participantes *" FontAttributes="Bold" TextColor="#334155" />
+                            <Entry Placeholder="Ex: 50"
+                                   Keyboard="Numeric"
+                                   Text="{Binding NumeroParticipantesTexto}"
+                                   TextColor="#0F172A" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="1" Spacing="4">
+                            <Label Text="Custo por Participante (R$) *" FontAttributes="Bold" TextColor="#334155" />
+                            <Entry Placeholder="Ex: 120,00"
+                                   Keyboard="Numeric"
+                                   Text="{Binding CustoPorParticipanteTexto}"
+                                   TextColor="#0F172A" />
+                        </VerticalStackLayout>
+                    </Grid>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Botões de Ação: Concluir e Voltar para a Página Inicial -->
+            <Button Text="Concluir Cadastro e Ver Resumo"
+                    Command="{Binding ConcluirCadastroCommand}"
+                    BackgroundColor="#2563EB"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    HeightRequest="50"
+                    CornerRadius="8"
+                    Margin="0,6,0,0" />
+
+            <Button Text="Voltar para a Página Inicial"
+                    Command="{Binding VoltarCommand}"
+                    BackgroundColor="#64748B"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="15"
+                    HeightRequest="46"
+                    CornerRadius="8" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
